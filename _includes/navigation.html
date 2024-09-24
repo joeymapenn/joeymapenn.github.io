@@ -3,8 +3,11 @@
   <!-- <li class="nav-jr home-anc"><h4><a href="#home"><br></a></h4></li> -->
   {% assign current = page.url | downcase | split: '/' %}
   <div class="flexbox-parent" style="display: flex; flex-wrap: wrap">
+    <li class="about-anc" style="display: inline">
+      <a class="nav-underline home {% if page.url == '/' %}current{% endif %}" href="{{site.url}}">Home</a>
+    </li>
       <li class="about-anc" style="display: inline">
-        <a class="nav-underline home {% if page.url == '/' %}current{% endif %}" href="{{site.url}}">Home</a>
+        <a class="nav-underline home {% if page.url == '/about/' %}current{% endif %}" href="{{site.url}}/about">About</a>
       </li>
       <li class="beliefs-anc" style="display: inline">
         <a class="nav-underline open-source {% if page.url == '/projects/' %}current{% endif %}" href="{{site.url}}/projects">Publication & Project</a>

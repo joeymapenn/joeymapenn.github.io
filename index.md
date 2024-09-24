@@ -1,7 +1,6 @@
 ---
-layout: about
+layout: default
 tags: home
-headshot: /images/headshot.jpg
 ---
 
 <h1>👋 Hi there, <br> I'm Chenfeng Huang.</h1>
