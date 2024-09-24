@@ -1,6 +1,7 @@
-# thundergolfer.github.io
 
-Just my website. The theme is [thundergolfer/**junior-theme**](https://github.com/thundergolfer/junior-theme)
+
+##Personal webpage of Chenfeng Huang. 
+
 
 ----
 
@@ -10,7 +11,7 @@ Just my website. The theme is [thundergolfer/**junior-theme**](https://github.co
 
 ### What you can find there
 
-* [Blog posts](http://thundergolfer.com/)
+* [Home page](http://chenfenghuang.info/)
 * [My 'library' and 'antilibrary'](http://thundergolfer.com/library)
 * [A crude summary of my open-source work](http://thundergolfer.com/projects/)
 * [A basic about me page](http://thundergolfer.com/about/)
@@ -25,3 +26,4 @@ Just my website. The theme is [thundergolfer/**junior-theme**](https://github.co
 ### Development
 
 Development documentation is in [DEVELOPMENT.md](DEVELOPMENT.md)
+The theme is [thundergolfer/**junior-theme**](https://github.com/thundergolfer/junior-theme)
