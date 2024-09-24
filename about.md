@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: about
 permalink: /about/
 title: A little bit about me.
@@ -209,4 +209,4 @@ fetch('https://thundergolfer--thundergolferdotcom-about-page-web.modal.run')
     padding-left: 1.2em;
   }
 }
-</style>
+</style> -->
