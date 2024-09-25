@@ -29,6 +29,7 @@ enable_anchorjs: true
 github_username: 91MrHuang
 linkedin_username: chenfeng-huang-941737176
 kaggle_username: alrickh
+google_scholar_id: your_google_scholar_id_here
 
 text:
   pagination:

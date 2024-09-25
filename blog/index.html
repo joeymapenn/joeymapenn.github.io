@@ -2,34 +2,62 @@
 layout: default
 tags: blog
 ---
-
-{% assign posts_count = site.posts | size %}
+{% assign regular_posts = site.posts | where_exp:"post", "post.tags contains 'blog'" %}
+{% assign regular_posts_count = regular_posts | size %}
+{% assign coffee_notes = site.posts | where: "tags", "coffee-note" %}
+{% assign coffee_note_count = coffee_notes | size %}
 
 <h1>Blog</h1>
-
 <div class="home">
-  {% if posts_count > 0 %}
-  <div class="posts">
-    {% for post in paginator.posts %}
-    <div class="post py3">
-      <p class="post-meta">
-        <span>{{ post.date | date: site.date_format }}</span>
-        {% if post.tags contains "popular" %}
-        <span class="post-meta-popular-tag">Popular</span>
-        {% endif %}
-      </p>
-      <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"
-        ><h3 class="h2 post-title">{{ post.title }}</h3></a
-      >
-      <p class="post-summary">
-        {% if post.summary %} {{ post.summary }} {% else %} {{ post.excerpt }}
-        {% endif %}
-      </p>
+  {% if regular_posts_count > 0 %}
+    <div class="posts">
+      {% for post in regular_posts limit:5 %}
+        <div class="post py3">
+          <p class="post-meta">
+            <span>{{ post.date | date: site.date_format }}</span>
+            {% if post.tags contains "popular" %}
+              <span class="post-meta-popular-tag">Popular</span>
+            {% endif %}
+          </p>
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
+            <h3 class="h2 post-title">{{ post.title }}</h3>
+          </a>
+          <p class="post-summary">
+            {% if post.summary %} {{ post.summary }} {% else %} {{ post.excerpt }}
+            {% endif %}
+          </p>
+        </div>
+      {% endfor %}
     </div>
+    {% if regular_posts_count > 5 %}
+      <a href="{{ site.baseurl }}/blog" class="more-posts">See all blog posts</a>
+    {% endif %}
+  {% else %}
+    <h1 class="center">{{ site.text.index.coming_soon }}</h1>
+  {% endif %}
+</div>
+
+<h1>Coffee Note</h1>
+<div class="coffee-note">
+  {% if coffee_note_count > 0 %}
+    {% for note in coffee_notes limit:5 %}
+      <div class="coffee-note-item py3">
+        <p class="post-meta">
+          <span>{{ note.date | date: site.date_format }}</span>
+        </p>
+        <a href="{{ note.url | prepend: site.baseurl }}" class="post-link">
+          <h3 class="h3 post-title">{{ note.title }}</h3>
+        </a>
+        <p class="post-summary">
+          {% if note.summary %} {{ note.summary }} {% else %} {{ note.excerpt }}
+          {% endif %}
+        </p>
+      </div>
     {% endfor %}
-  </div>
-  {% include pagination.html %} {% if site.show_subscribe_cta %} {% include
-  subscribe.html %} {% endif %} {% else %}
-  <h1 class="center">{{ site.text.index.coming_soon }}</h1>
+    {% if coffee_note_count > 5 %}
+      <a href="{{ site.baseurl }}/coffee-note" class="more-coffee-note">See all Coffee Note entries</a>
+    {% endif %}
+  {% else %}
+    <p>No coffee note entries yet. Stay tuned!</p>
   {% endif %}
 </div>

@@ -38,6 +38,9 @@
     {% if site.youtube_channel_id %}
       <a class="fa fa-youtube-play" href="https://youtube.com/channel/{{ site.youtube_channel_id }}"target="_blank" rel="noopener noreferrer"></a>
     {% endif %}
+    {% if site.google_scholar_id %}
+    <a class="ai ai-google-scholar" href="https://scholar.google.com/citations?user={{ site.google_scholar_id }}" target="_blank" rel="noopener noreferrer"></a>
+    {% endif %}
     {% if site.kaggle_username %}
     <a href="https://www.kaggle.com/{{ site.kaggle_username }}" target="_blank" rel="noopener noreferrer">
       <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">

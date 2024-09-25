@@ -1,10 +1,8 @@
 ---
 layout: post
-title: Test
-date: 2024-08-18
-summary: Sharing my August 2024 talk at NYC Systems.
-categories: video talk containers modal
-permalink: fast-lazy-container-loading-talk
+title: "My Blog Post"
+date: 2023-09-28 09:00:00 -0500
+tags: blog
 ---
 
 On August 15th in Gowanus, Brooklyn I gave a talk at [NYC Systems](https://nycsystems.xyz/august-2024.html) on some of the
