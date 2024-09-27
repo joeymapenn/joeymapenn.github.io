@@ -1,25 +1,19 @@
 ---
 layout: about
 permalink: /about/
-title: A little bit about me.
+title: A little bit more about me.
 tags: about
 headshot: /images/headshot.jpg
 ---
 
 ### Where I'm from
-
-🇨🇳 I
+I was born in Chengdu 🐼, China 🇨🇳, where I lived for 17 years. In Fall 2017, I moved to the United States to pursue my studies and have been here since.
 
 ### What I do now
+I'm currently a master's student at USC, majoring in Applied Data Science. My research interests are Machine Learning and interdisciplinary applications. I am currently researching on Diffusion Model and Time Series Analysis. 
 
-
-
-### Where I'm at now
-
-
-
-### What I used to do
-
+### What I do in spare time
+I'm an aspiring professional fitness trainer 💪 and coffee enthusiast ☕️. With 5 years of dedicated workout experience, I've developed a passion for physical fitness. As a coffee aficionado, I specialize in pour-over techniques and enjoy exploring various coffee bean origins. Check out my **Coffee Notes**  in the [Blog]({{ site.baseurl }}/blog/). I'm working towards becoming a certified barista to further my expertise in coffee preparation.
 
 <!-- 
 <div id="stats" class="hidden">

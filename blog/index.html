@@ -7,7 +7,7 @@ tags: blog
 {% assign coffee_notes = site.posts | where: "tags", "coffee-note" %}
 {% assign coffee_note_count = coffee_notes | size %}
 
-<h1>Blog</h1>
+<h1>Blogs</h1>
 <div class="home">
   {% if regular_posts_count > 0 %}
     <div class="posts">
@@ -37,7 +37,7 @@ tags: blog
   {% endif %}
 </div>
 
-<h1>Coffee Note</h1>
+<h1>Coffee Notes</h1>
 <div class="coffee-note">
   {% if coffee_note_count > 0 %}
     {% for note in coffee_notes limit:5 %}

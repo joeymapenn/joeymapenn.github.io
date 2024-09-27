@@ -1,6 +1,6 @@
 
 
-##Personal webpage of Chenfeng Huang. 
+## Personal webpage of Chenfeng Huang. 
 
 
 ----
@@ -11,19 +11,18 @@
 
 ### What you can find there
 
-* [Home page](http://chenfenghuang.info/)
-* [My 'library' and 'antilibrary'](http://thundergolfer.com/library)
-* [A crude summary of my open-source work](http://thundergolfer.com/projects/)
-* [A basic about me page](http://thundergolfer.com/about/)
-
-### Other places you can find me
-
-* Twitter @ [jonobelotti_IO](https://twitter.com/jonobelotti_io)
-* LinkedIn @ [Jonathon Belotti](https://www.linkedin.com/in/jonathonbelotti/)
+* [Home page](https://chenfenghuang.info/)
+* [About](https://chenfenghuang.info/about)
+* [Publication and Project](https://chenfenghuang.info/)
+* [Blog ](http://thundergolfer.com/about/)
 
 ----
 
 ### Development
 
 Development documentation is in [DEVELOPMENT.md](DEVELOPMENT.md)
+
+### Credit
 The theme is [thundergolfer/**junior-theme**](https://github.com/thundergolfer/junior-theme)
+
+The page is developed based on Jonathon Belotti personal page(https://github.com/thundergolfer/thundergolfer.github.io?tab=readme-ov-file)
