@@ -1,33 +1,28 @@
 ---
-layout:   post
-title:    Up And Running with Dropbox's Bazel Python Rules, <code>dropbox/dbx_build_tools</code>
-date:     2021-01-03
-summary:  TODO
-categories: software-engineering bazel
+layout: post
+title: "Columbia El Paraiso Maragogype by Dayglow"
+date: 2024-09-26 20:00:00 -0500
+tags: coffee-note
 ---
 
-Being a maintainer of `bazelbuild/rules_python` (whenever I scrounge sometime) I had to eventually checkout Dropbox's Python rules for Bazel, open-sourced mid-2020. Dropbox adopted Bazel really soon after it escaped Google in 2015, and so their rules are highly mature and battle-tested, worked on by super-experienced Python devs like [Benjamin Peterson](https://discuss.python.org/t/steering-council-nomination-benjamin-peterson/665), and even on by the most senior Python person there is, the BDFL. I think the `bazelbuild/rules_python` ruleset has much to learn from the Dropbox rules. So, finally having some free time once finishing part-time study, I christened a brand-new Git repository `[dropbox-style-github-repo](https://github.com/thundergolfer/dropbox-style-python-repo)` and had some fun stitching C code to Python using Dropbox's rules.
+<div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; margin-bottom: 20px;">
+<img src="/images/2024-09-24-El-Paraiso-Maragogype/el-paraiso-maragogype.png" alt="El Paraiso Maragogype Packaging" style="max-width: 50%; height: 400px;">
+  <img src="/images/2024-09-24-El-Paraiso-Maragogype/setup.png" alt="Set up" style="width: 400px; height: 400px;">
+</div>
 
-I hit some roadblocks on the way to getting a working Python C-bindings demo, but did get things going. The Dropbox rules have a hermetic toolchain setup that does not support OSX, in contrast to `rules_python` which is not hermetic in a standard setup but therefore can more easily be run on Linux, OSX, or Windows. I also came across places where the Dropbox rules didn't work because they made an assumption that was valid when they lived in Dropbox's internal systems, but didn't work post-open-sourcing. These problems weren't blockers though, so I documented them in comments and Jason from Dropbox fixed them really quickly after we got in touch via the Bazel Slack. However, AFAIK the MyPy integration in their rules still has the 'works within Dropbox only' issue.
+The El Paraiso Maragogype beans, renowned for their tropical fruity notes, hail from the innovative El Paraiso Estate 🥇. Both dry and wet aromas are intensely fragrant, leaving an unforgettable first impression.
 
-### Github Codespaces
+Dayglow's roast, while ambitious, may have slightly overstepped, introducing a hint of bitterness. This could also be inherent to the giant Maragogipe variety. As a first-time taster, I suggest tweaking the brew to reduce extraction.
 
-Because I couldn't use these rules on my OSX-based laptop, I needed a Linux development environment. I'd been curious about trying Github's *Codespaces* feature, released around 8 months ago, and so figured that'd be the first thing I tried.
+Apax Lab's natural processing and specialized water blend elevate the coffee's essence-like profile. However, whether should I categorize Koji Amazake Method as a true natural process remains uncertain.
 
-I expected a pretty slick web IDE experience from Github, and that's basically what I got. I'd already requested early access so could jump in and create one of maximum two codespaces (shown below). 
+**Brew Guide** <br>
+Equipment:
+- Grinder setup: Comandante C40 Red Axis 45 clicks
+- Filter: Sibarist FAST Cone Filter 01 size
+- Dripper: V60
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e75dc02e-0e51-45a8-87b4-4473bd9bc310/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e75dc02e-0e51-45a8-87b4-4473bd9bc310/Untitled.png)
-
-I switched away from the default codespaces development container to ensure I had a high enough version of `gcc` for the Dropbox rules to work, and went for the [Python3 image](https://github.com/thundergolfer/dropbox-style-python-repo/commit/2d6c286f71aaede3a0ac4c97b03654f6ce29125d) from `[microsoft/vscode-dev-containers](https://github.com/microsoft/vscode-dev-containers/tree/master/containers/codespaces-linux)`. After doing this, getting the hermetic Python toolchain to work was complete.
-
-If you've got access to Github Codespaces, it should be trivial to open up the same web-based development environment that I used and just `bazel build //...` the Bazel workspace, which is pretty nice.
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7603a78d-1751-458f-9365-288830df7de0/showing-how-to-open-gh-codespaces.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7603a78d-1751-458f-9365-288830df7de0/showing-how-to-open-gh-codespaces.png)
-
-### Using the Dropbox rules to bind C to Python
-
-The Dropbox rules are not documented, and there's not much else online about them, so I'd bet that they're not beginner friendly, but I've got a decent amount of experience in Python and Bazel so it wasn't too hard for me to get something going. 
-
-TODO
-
-**The `BUILD` file generator, `bzl gen`**
+Process:<br>
+0:00-0:40 40g <br>
+0:40-1:10 130g <br>
+1:10-1:50 150g

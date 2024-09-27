@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "El Paraiso Maragogype by Dayglow"
+title: "Columbia El Paraiso Maragogype by Dayglow"
 date: 2024-09-26 20:00:00 -0500
 tags: coffee-note
 ---
