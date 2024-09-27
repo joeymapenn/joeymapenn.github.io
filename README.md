@@ -3,8 +3,6 @@
 ## Personal webpage of Chenfeng Huang. 
 
 
-----
-
 ### What it looks like
 
 ![homepage preview](homepage-preview.png)

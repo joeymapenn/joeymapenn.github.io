@@ -13,7 +13,7 @@ tags: home
     </li>
     <li>
       <a href="{{ site.baseurl }}/publications/">Publication & Project</a>
-      <p>Check out my <br> 📈 research papers <br> and 🤖 personal projects</p>
+      <p>Check out my <br> 📊 research papers <br> and 🚧 personal projects</p>
     </li>
     <li>
       <a href="{{ site.baseurl }}/blog/">Blog</a>
