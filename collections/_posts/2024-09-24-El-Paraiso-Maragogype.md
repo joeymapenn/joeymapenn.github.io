@@ -6,8 +6,8 @@ tags: coffee-note
 ---
 
 <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; margin-bottom: 20px;">
-  <img src="/images/2024-09-24-El-Paraiso-Maragogype/el-paraiso-maragogype.PNG" alt="El Paraiso Maragogype Packaging" style="max-width: 50%; height: 400px;">
-  <img src="/images/2024-09-24-El-Paraiso-Maragogype/setup.PNG" alt="Set up" style="width: 400px; height: 400px;">
+<img src="/images/2024-09-24-El-Paraiso-Maragogype/el-paraiso-maragogype.png" alt="El Paraiso Maragogype Packaging" style="max-width: 50%; height: 400px;">
+  <img src="/images/2024-09-24-El-Paraiso-Maragogype/setup.png" alt="Set up" style="width: 400px; height: 400px;">
 </div>
 
 The El Paraiso Maragogype beans, renowned for their tropical fruity notes, hail from the innovative El Paraiso Estate 🥇. Both dry and wet aromas are intensely fragrant, leaving an unforgettable first impression.
