@@ -1,8 +1,8 @@
 ---
 layout: fullscreen
-title: Chenfeng Huang - CV
+title: Zixuan Ma - CV
 permalink: /cv/
 ---
 
 <a id="back-link" href="{{ site.baseurl }}/">Back to Home</a>
-<iframe id="pdf-viewer" src="{{ site.baseurl }}/assets/ChenfengHuangCV.pdf"></iframe>
+<iframe id="pdf-viewer" src="{{ site.baseurl }}/assets/ZixuanMaCV.pdf"></iframe>

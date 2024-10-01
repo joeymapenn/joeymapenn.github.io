@@ -36,28 +36,3 @@ tags: blog
     <h1 class="center">{{ site.text.index.coming_soon }}</h1>
   {% endif %}
 </div>
-
-<h1>Coffee Notes</h1>
-<div class="coffee-note">
-  {% if coffee_note_count > 0 %}
-    {% for note in coffee_notes limit:5 %}
-      <div class="coffee-note-item py3">
-        <p class="post-meta">
-          <span>{{ note.date | date: site.date_format }}</span>
-        </p>
-        <a href="{{ note.url | prepend: site.baseurl }}" class="post-link">
-          <h3 class="h3 post-title">{{ note.title }}</h3>
-        </a>
-        <p class="post-summary">
-          {% if note.summary %} {{ note.summary }} {% else %} {{ note.excerpt }}
-          {% endif %}
-        </p>
-      </div>
-    {% endfor %}
-    {% if coffee_note_count > 5 %}
-      <a href="{{ site.baseurl }}/coffee-note" class="more-coffee-note">See all Coffee Note entries</a>
-    {% endif %}
-  {% else %}
-    <p>No coffee note entries yet. Stay tuned!</p>
-  {% endif %}
-</div>
