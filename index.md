@@ -2,9 +2,9 @@
 layout: default
 tags: home
 ---
-<h1>👋 Hi there, <br> I'm Chenfeng Huang.</h1>
-<h3>I'm a master student at University of Southern California with a focus on Machine Learning.</h3>
-<h3>Currently, I am working on Time Series Analysis leveraging Diffusion Model.</h3>
+<h1>👋 Hi there, <br> I'm Zixuan Ma.</h1>
+<h3>I'm a graduate student at University of Pennsylvania with a focus on Probabilistic Machine Learning.</h3>
+<h3>In addition, I am interested in a wide range of computational social sciences.</h3>
 <nav>
   <ul>
     <li>
@@ -12,12 +12,12 @@ tags: home
       <p>Get to know me better <br> - my background <br> and interests</p>
     </li>
     <li>
-      <a href="{{ site.baseurl }}/publications/">Publication & Project</a>
-      <p>Check out my <br> 📊 research papers <br> and 🚧 personal projects</p>
+      <a href="{{ site.baseurl }}/publications/">Publication</a>
+      <p>Check out my <br> 📊 research papers <br> and 🚧 academic activities</p>
     </li>
     <li>
       <a href="{{ site.baseurl }}/blog/">Blog</a>
-      <p>Find out my  <br> 👀 recent activities <br> and ☕️ coffee notes!</p>
+      <p>Find out my  <br> 👀 recent activities <br> and ☕️ personal thinkings</p>
     </li>
   </ul>
 </nav>

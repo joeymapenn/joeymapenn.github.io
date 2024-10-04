@@ -7,17 +7,17 @@ headshot: /images/headshot.jpg
 ---
 
 ### Where I'm from
-I was born in Chengdu 🐼, China 🇨🇳, where I lived for 17 years. In Fall 2017, I moved to the United States to pursue my studies and have been here since.
+I was born in Henan, China 🇨🇳, and came to the United States in 2021 to pursue my studies. I have since completed a degree in Financial Engineering at the University of Southern California, where I worked with Prof. Petros Ioannou, focusing on the application of machine learning algorithms to asset pricing.
 
 ### What I do now
-I'm currently a master's student at USC, majoring in Applied Data Science. My **research interests** are **Machine Learning** and **Natural Language Processing**. <br>I am researching on Diffusion Model and Time Series Analysis recently. 
+I am currently pursuing graduate studies at the University of Pennsylvania, with research interests in probabilistic machine learning and a variety of computational economics problems. Additionally, I have a strong interest in quantitative finance, particularly in using natural language processing techniques to analyze alternative data, such as textual and crowdsourced sources, to mine alpha signals.
 
 ### What I do in spare time
-I'm an aspiring professional fitness trainer 💪 and coffee enthusiast ☕️. With 5 years of dedicated workout experience, I've developed a passion for physical fitness. As a coffee addict, I specialize in pour-over techniques and enjoy exploring various coffee bean origins. Check out my [Coffee Notes]({{ site.baseurl }}/blog/). I'm working towards becoming a certified barista to further my expertise in coffee preparation.
+I’m a beginner in fitness and would love to hear about your experiences! When I’m not working or doing research, I go hiking ⛰️ every week. I’m planning to hike in South America soon—imagine lying on a boat, floating on the Amazon River, and watching the stars 🌌.
 
 <!-- 
 <div id="stats" class="hidden">
-
+Check out my [Coffee Notes]({{ site.baseurl }}/blog/)
 <h3 id="dashboard"><code>#dashboard</code></h3>
 
 <h2>Just finished.</h2>
