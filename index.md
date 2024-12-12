@@ -3,8 +3,9 @@ layout: default
 tags: home
 ---
 <h1>👋 Hi there, <br> I'm Zixuan Ma.</h1>
-<h3>I'm a graduate student at University of Pennsylvania with a focus on Probabilistic Machine Learning.</h3>
-<h3>In addition, I am interested in a wide range of computational social sciences.</h3>
+<h3>I'm a graduate student at University of Pennsylvania with a focus on Probabilistic Modeling and Causal Inference.</h3>
+<h3>Additionally, I have a strong interest in large-scale generative AI, including large language models and diffusion models.</h3>
+<h3>Previously, I worked as a quantitative researcher, specializing in alternative data mining for quantitative trading and asset pricing.</h3>
 <nav>
   <ul>
     <li>

@@ -10,10 +10,10 @@ headshot: /images/headshot.jpg
 I was born in Henan, China 🇨🇳, and came to the United States in 2021 to pursue my studies. I have since completed a degree in Financial Engineering at the University of Southern California, where I worked with Prof. Petros Ioannou, focusing on the application of machine learning algorithms to asset pricing.
 
 ### What I do now
-I am currently pursuing graduate studies at the University of Pennsylvania, with research interests in probabilistic machine learning and a variety of computational economics problems. Additionally, I have a strong interest in quantitative finance, particularly in using natural language processing techniques to analyze alternative data, such as textual and crowdsourced sources, to mine alpha signals.
+I am currently pursuing graduate studies at the University of Pennsylvania, where my research focuses on developing frameworks to capture uncertainty and uncover cause-and-effect relationships to enable robust decision-making and predictive insights across complex systems. I also have a strong interest in quantitative finance, specifically in leveraging machine learning techniques to reveal latent characteristics in asset pricing, supporting data-driven approaches for risk management and portfolio optimization.
 
-### What I do in spare time
-I’m a beginner in fitness and would love to hear about your experiences! When I’m not working or doing research, I go hiking ⛰️ every week. I’m planning to hike in South America soon—imagine lying on a boat, floating on the Amazon River, and watching the stars 🌌.
+### What I do in the past
+As an undergraduate, I co-authored the book Poverty Alleviation Policy: Government-Oriented vs. Market-Oriented with Dr. Ming Fan, marking my first application of data-driven approaches and game theory to generate insights into practical issues. Since then, my work in the financial industry has fueled my eagerness to study how economic reasoning and domain knowledge can be integrated into machine learning models, particularly to address challenges like p-hacking and look-ahead bias.
 
 <!-- 
 <div id="stats" class="hidden">
