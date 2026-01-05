@@ -3,125 +3,89 @@ layout: default
 title: Publications
 tags: publications
 permalink: /publications/
-js:
-  - js/gh_projects.js
-  - js/util_buttons.js
 ---
 
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects & Open-Source</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        h1, h2 {
-            margin-bottom: 15px;
-        }
-        hr {
-            margin: 20px 0;
-            border: none;
-            border-top: 1px solid #ddd;
-        }
-        a {
-            color: black;
-            text-decoration: none;
-        }
-        .item {
-            margin-bottom: 20px;
-        }
-        .item h4 {
-            margin: 0 0 5px 0;
-        }
-        .item p {
-            margin: 0;
-        }
-        h4 em {
-            font-weight: normal;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Publications</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.65;
+      color: #222;
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1 { margin-bottom: 6px; }
+    .subtle { margin-top: 0; color: #555; }
+    .publist { margin: 0; padding-left: 18px; }
+    .publist li { margin: 12px 0; }
+    .meta { color: #555; }
+    a { color: #111; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .tag {
+      display: inline-block;
+      font-size: 0.85rem;
+      padding: 2px 8px;
+      border: 1px solid #ddd;
+      border-radius: 999px;
+      margin-left: 8px;
+      color: #444;
+    }
+  </style>
 </head>
+
 <body>
-    <h1>Publications</h1>
-    <p>
-        Academic publications. Click-through to check out the
-        work in more detail.
-    </p>
-    <hr />
-    <h2>2024</h2>
-    <div class="item">
-        <a
-            href=""
-            aria-label="Diffusion Model"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-            <h4 class="text-lg font-bold tracking-tight text-gray-900 dark:text-gray-100">
-                Effective Series Decomposition and Components Learning for Time Series Generation
-              <em>In: submission</em> 
-            </h4>
-            <p class="leading-5 text-gray-700 dark:text-gray-300">
-            <strong>Z. Ma</strong> and C. Huang
-              </p>
-        </a>
-    </div>
-    <div class="item">
-      <a
-          href=""
-          aria-label="DocIRLLM"
-          target="_blank"
-          rel="noopener noreferrer"
-      >
-          <h4 class="text-lg font-bold tracking-tight text-gray-900 dark:text-gray-100">
-            Tree of Plan: a Structured Pathway for 
-            Document-level Information Extraction with Large Language Models
-            <em>In: submission</em> 
-          </h4>
-          <p class="leading-5 text-gray-700 dark:text-gray-300">
-            Y. Ren, Y. Cao, <strong>Z. Ma</strong>, H. Li, P. Guo and W. Ma 
-            </p>
+  <h1>Publications</h1>
+  <p class="subtle">
+    Publications and preprints (reverse chronological order).
+  </p>
+
+  <ol class="publist">
+    <!-- 2026 -->
+    <li>
+      <strong>Ma, Z.</strong>, Huang, C., Le, T., &amp; Tran, H. (2026).
+      <em>Confidence-Based Handover for Causal Bayesian Optimization with Adaptive Expert Trust.</em>
+      <span class="meta">Under review at the 29th International Conference on Artificial Intelligence and Statistics (AISTATS 2026).</span>
+      <span class="tag">Under review</span>
+    </li>
+
+    <li>
+      <strong>Ma, Z.</strong>, &amp; Huang, C. (2026).
+      <em>A Causal Perspective on Jump Diffusion SDEs for Time-Series Anomaly Detection.</em>
+      <span class="meta">Under review at the 14th International Conference on Learning Representations (ICLR 2026).</span>
+      <span class="tag">Under review</span>
+    </li>
+
+    <!-- 2025 -->
+    <li>
+      <strong>Ma, Z.</strong>, &amp; Huang, C. (2025).
+      <a href="https://arxiv.org/pdf/2511.00747" target="_blank" rel="noopener noreferrer">
+        <em>Effective Series Decomposition and Components Learning for Time Series Generation.</em>
       </a>
-  </div>
-  <div class="item">
-    <a
-        href="https://aclanthology.org/2024.lrec-main.410.pdf"
-        aria-label="DocIRDataset"
-        target="_blank"
-        rel="noopener noreferrer"
-    >
-        <h4 class="text-lg font-bold tracking-tight text-gray-900 dark:text-gray-100">
-          DEIE: Benchmarking Document-level Event Information Extraction
-          with a Large-scale Chinese News Dataset
-          <em>The 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation <strong>(LREC-COLING 2024)</strong></em> 
-        </h4>
-        <p class="leading-5 text-gray-700 dark:text-gray-300">
-          Y. Ren, Y. Cao, H. Li, Y. Li, <strong>Z. Ma</strong>, F. Fang, P. Guo and W. Ma
-          </p>
+      <span class="meta">In Proceedings of the 25th IEEE International Conference on Data Mining (ICDM 2025), Oral presentation.</span>
+    </li>
+
+    <!-- 2024 -->
+    <li>
+      Ren, Y., Cao, Y., Li, H., Li, Y., <strong>Ma, Z.</strong>, Fang, F., Guo, P., &amp; Ma, W. (2024).
+      <a href="https://aclanthology.org/2024.lrec-main.410.pdf" target="_blank" rel="noopener noreferrer">
+        <em>DEIE: Benchmarking Document-level Event Information Extraction with a Large-scale Chinese News Dataset.</em>
       </a>
-  </div>
-  <h2>2018</h2>
-  <div class="item">
-    <a
-        href="https://www.amazon.com/-/zh_TW/%E6%A8%8A%E6%98%8E/dp/B07BX3KJ6P"
-        aria-label="Diffusion Model"
-        target="_blank"
-        rel="noopener noreferrer"
-    >
-        <h4 class="text-lg font-bold tracking-tight text-gray-900 dark:text-gray-100">
-          Poverty Alleviation Policy: Government-oriented VS. Market-oriented
-          <em>Social Sciences Academic Press (China)</em> 
-        </h4>
-        <p class="leading-5 text-gray-700 dark:text-gray-300">
-          M. Fan, <strong>Z. Ma</strong> and Others
-          </p>
+      <span class="meta">In Proceedings of the Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024), Main conference.</span>
+    </li>
+
+    <!-- 2018 -->
+    <li>
+      Fan, M., <strong>Ma, Z.</strong>, et al. (2018).
+      <a href="https://www.amazon.com/%E6%89%B6%E8%B4%AB%E6%94%BF%E7%AD%96%EF%BC%9A%E6%94%BF%E5%BA%9C%E5%AF%BC%E5%90%91%E6%88%96%E5%B8%82%E5%9C%BA%E5%AF%BC%E5%90%91%EF%BC%9F-%E6%A8%8A%E6%98%8E/dp/B07BX3KJ6P" target="_blank" rel="noopener noreferrer">
+        <em>Poverty Alleviation Policy: Government-oriented vs. Market-oriented.</em>
       </a>
-  </div>
-    <hr />
-    
+      <span class="meta">Social Sciences Academic Press (China).</span>
+    </li>
+  </ol>
+</body>
+</html>
