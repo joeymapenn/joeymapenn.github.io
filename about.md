@@ -6,20 +6,20 @@ tags: about
 headshot: /images/headshot.jpg
 ---
 
-### Where I'm from
-I was born in Henan, China 🇨🇳, and came to the United States in 2021 to pursue my studies. I have since completed a degree in Financial Engineering at the University of Southern California, where I worked with Prof. Petros Ioannou, focusing on the application of machine learning algorithms to asset pricing. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+### Where I’m from
+I was born in Henan, China 🇨🇳, and came to the United States in 2021 to pursue my studies. I later completed a degree in Financial Engineering at the University of Southern California, and am currently based at the University of Pennsylvania.
 
 ### What I do now
-My current work centers on two directions. First, I develop **shift-resilient generalization theory for dependent time series**, using a PAC-Bayesian formulation that yields computable risk bounds by coupling cross-environment discrepancy with variance-adaptive martingale terms. Second, I study **risk-controlled decision-making under decision-dependent shift**, designing causal, counterfactual constraints that enforce safety directly on the post-decision distribution induced by a policy. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
-
+I currently work on two closely related problems: making time-series learning more reliable when data are limited and environments change, and designing decision rules that remain safe after deployment—especially in settings like finance where actions can influence future data.
 
 ### Updates
 Just a few things I’ve been busy with lately:
-- Nov 2025 → volunteered at ICDM 2025. :contentReference[oaicite:7]{index=7}  
-- Dec 2025 → received an NSF ICDM Student Travel Award (huge relief for travel costs!). :contentReference[oaicite:6]{index=6}  
-- Sep 2025 → started reviewing for AISTATS 2026 (2 papers). :contentReference[oaicite:5]{index=5}  
-- Sep 2025 → my paper was accepted to ICDM 2025 as an oral presentation. :contentReference[oaicite:8]{index=8}  
-- Aug 2025 → joined the AAAI-26 program committee (reviewing 4 papers). :contentReference[oaicite:4]{index=4}  
+
+- **Nov 2025** → volunteered at ICDM 2025  
+- **Dec 2025** → received an NSF ICDM Student Travel Award (huge relief for travel costs!)  
+- **Sep 2025** → started reviewing for AISTATS 2026 (2 papers)  
+- **Sep 2025** → my paper was accepted to ICDM 2025 as an oral presentation  
+- **Aug 2025** → joined the AAAI-26 program committee (reviewing 4 papers)
 
 
 <!-- 

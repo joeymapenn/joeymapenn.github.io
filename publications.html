@@ -10,82 +10,157 @@ permalink: /publications/
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Publications</title>
+
   <style>
     body {
       font-family: Arial, sans-serif;
       line-height: 1.65;
       color: #222;
-      max-width: 860px;
+      max-width: 920px;
       margin: 0 auto;
-      padding: 20px;
+      padding: 24px;
     }
-    h1 { margin-bottom: 6px; }
-    .subtle { margin-top: 0; color: #555; }
-    .publist { margin: 0; padding-left: 18px; }
-    .publist li { margin: 12px 0; }
-    .meta { color: #555; }
+
+    h1 { margin: 0 0 6px 0; font-size: 2.4rem; letter-spacing: -0.02em; }
+    .subtle { margin: 0 0 18px 0; color: #666; }
+
+    .year {
+      margin-top: 26px;
+      margin-bottom: 10px;
+      font-size: 1.1rem;
+      color: #111;
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+    }
+    .year::after {
+      content: "";
+      flex: 1;
+      border-top: 1px solid #eee;
+      transform: translateY(-3px);
+    }
+
+    .publist {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 12px;
+    }
+
+    .pub {
+      border: 1px solid #eee;
+      border-radius: 12px;
+      padding: 14px 16px;
+      background: #fff;
+    }
+
+    .title {
+      margin: 0 0 6px 0;
+      font-size: 1.02rem;
+      line-height: 1.35;
+    }
+
+    .authors {
+      margin: 0 0 6px 0;
+      color: #333;
+    }
+
+    .venue {
+      margin: 0;
+      color: #666;
+    }
+
     a { color: #111; text-decoration: none; }
     a:hover { text-decoration: underline; }
+
     .tag {
       display: inline-block;
-      font-size: 0.85rem;
-      padding: 2px 8px;
+      font-size: 0.82rem;
+      padding: 2px 10px;
       border: 1px solid #ddd;
       border-radius: 999px;
       margin-left: 8px;
       color: #444;
+      white-space: nowrap;
+    }
+
+    .hint {
+      font-size: 0.92rem;
+      color: #666;
+      margin-top: 18px;
     }
   </style>
 </head>
 
 <body>
   <h1>Publications</h1>
-  <p class="subtle">
-    Publications and preprints (reverse chronological order).
-  </p>
+  <p class="subtle">Publications and preprints, grouped by year (newest first).</p>
 
-  <ol class="publist">
-    <!-- 2026 -->
-    <li>
-      <strong>Ma, Z.</strong>, Huang, C., Le, T., &amp; Tran, H. (2026).
-      <em>Confidence-Based Handover for Causal Bayesian Optimization with Adaptive Expert Trust.</em>
-      <span class="meta">Under review at the 29th International Conference on Artificial Intelligence and Statistics (AISTATS 2026).</span>
-      <span class="tag">Under review</span>
+  <!-- 2026 -->
+  <div class="year">2026</div>
+  <ul class="publist">
+    <li class="pub">
+      <p class="authors"><strong>Ma, Z.</strong>, Huang, C., Le, T., &amp; Tran, H. (2026).</p>
+      <p class="title">
+        <em>Confidence-Based Handover for Causal Bayesian Optimization with Adaptive Expert Trust.</em>
+        <span class="tag">Under review</span>
+      </p>
+      <p class="venue">Under review at the 29th International Conference on Artificial Intelligence and Statistics (AISTATS 2026).</p>
     </li>
 
-    <li>
-      <strong>Ma, Z.</strong>, &amp; Huang, C. (2026).
-      <em>A Causal Perspective on Jump Diffusion SDEs for Time-Series Anomaly Detection.</em>
-      <span class="meta">Under review at the 14th International Conference on Learning Representations (ICLR 2026).</span>
-      <span class="tag">Under review</span>
+    <li class="pub">
+      <p class="authors"><strong>Ma, Z.</strong>, &amp; Huang, C. (2026).</p>
+      <p class="title">
+        <em>A Causal Perspective on Jump Diffusion SDEs for Time-Series Anomaly Detection.</em>
+        <span class="tag">Under review</span>
+      </p>
+      <p class="venue">Under review at the 14th International Conference on Learning Representations (ICLR 2026).</p>
     </li>
+  </ul>
 
-    <!-- 2025 -->
-    <li>
-      <strong>Ma, Z.</strong>, &amp; Huang, C. (2025).
-      <a href="https://arxiv.org/pdf/2511.00747" target="_blank" rel="noopener noreferrer">
-        <em>Effective Series Decomposition and Components Learning for Time Series Generation.</em>
-      </a>
-      <span class="meta">In Proceedings of the 25th IEEE International Conference on Data Mining (ICDM 2025), Oral presentation.</span>
+  <!-- 2025 -->
+  <div class="year">2025</div>
+  <ul class="publist">
+    <li class="pub">
+      <p class="authors"><strong>Ma, Z.</strong>, &amp; Huang, C. (2025).</p>
+      <p class="title">
+        <a href="https://arxiv.org/pdf/2511.00747" target="_blank" rel="noopener noreferrer">
+          <em>Effective Series Decomposition and Components Learning for Time Series Generation.</em>
+        </a>
+      </p>
+      <p class="venue">In Proceedings of the 25th IEEE International Conference on Data Mining (ICDM 2025), Oral presentation.</p>
     </li>
+  </ul>
 
-    <!-- 2024 -->
-    <li>
-      Ren, Y., Cao, Y., Li, H., Li, Y., <strong>Ma, Z.</strong>, Fang, F., Guo, P., &amp; Ma, W. (2024).
-      <a href="https://aclanthology.org/2024.lrec-main.410.pdf" target="_blank" rel="noopener noreferrer">
-        <em>DEIE: Benchmarking Document-level Event Information Extraction with a Large-scale Chinese News Dataset.</em>
-      </a>
-      <span class="meta">In Proceedings of the Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024), Main conference.</span>
+  <!-- 2024 -->
+  <div class="year">2024</div>
+  <ul class="publist">
+    <li class="pub">
+      <p class="authors">Ren, Y., Cao, Y., Li, H., Li, Y., <strong>Ma, Z.</strong>, Fang, F., Guo, P., &amp; Ma, W. (2024).</p>
+      <p class="title">
+        <a href="https://aclanthology.org/2024.lrec-main.410.pdf" target="_blank" rel="noopener noreferrer">
+          <em>DEIE: Benchmarking Document-level Event Information Extraction with a Large-scale Chinese News Dataset.</em>
+        </a>
+      </p>
+      <p class="venue">In Proceedings of the Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024), Main conference.</p>
     </li>
+  </ul>
 
-    <!-- 2018 -->
-    <li>
-      Fan, M., <strong>Ma, Z.</strong>, et al. (2018).
-      <a href="https://www.amazon.com/%E6%89%B6%E8%B4%AB%E6%94%BF%E7%AD%96%EF%BC%9A%E6%94%BF%E5%BA%9C%E5%AF%BC%E5%90%91%E6%88%96%E5%B8%82%E5%9C%BA%E5%AF%BC%E5%90%91%EF%BC%9F-%E6%A8%8A%E6%98%8E/dp/B07BX3KJ6P" target="_blank" rel="noopener noreferrer">
-        <em>Poverty Alleviation Policy: Government-oriented vs. Market-oriented.</em>
-      </a>
-      <span class="meta">Social Sciences Academic Press (China).</span>
+  <!-- 2018 -->
+  <div class="year">2018</div>
+  <ul class="publist">
+    <li class="pub">
+      <p class="authors">Fan, M., <strong>Ma, Z.</strong>, et al. (2018).</p>
+      <p class="title">
+        <a href="https://www.amazon.com/%E6%89%B6%E8%B4%AB%E6%94%BF%E7%AD%96%EF%BC%9A%E6%94%BF%E5%BA%9C%E5%AF%BC%E5%90%91%E6%88%96%E5%B8%82%E5%9C%BA%E5%AF%BC%E5%90%91%EF%BC%9F-%E6%A8%8A%E6%98%8E/dp/B07BX3KJ6P" target="_blank" rel="noopener noreferrer">
+          <em>Poverty Alleviation Policy: Government-oriented vs. Market-oriented.</em>
+        </a>
+      </p>
+      <p class="venue">Social Sciences Academic Press (China).</p>
     </li>
-  </ol>
+  </ul>
+
+  <p class="hint">Tip: click a paper title to open the PDF/project page.</p>
 </body>
 </html>
