@@ -1,16 +1,23 @@
 ---
 layout: about
 permalink: /about/
-title: A little bit more about me.
+title: A little bit more about my research interests.
 tags: about
 headshot: /images/headshot.jpg
 ---
 
-### Where I’m from
-I was born in Henan, China 🇨🇳, and came to the United States in 2021 to pursue my studies. I later completed a degree in Financial Engineering at the University of Southern California, and am currently based at the University of Pennsylvania.
+<p>
+My research studies how learning and optimization algorithms can remain reliable
+under distribution shift, especially when data are scarce, high-dimensional,
+and affected by interventions. I develop theory and scalable methods that integrate
+<strong>causal structure</strong>, <strong>uncertainty modeling</strong>, and
+<strong>risk control</strong>.
+</p>
 
-### What I do now
-I currently work on two closely related problems: making time-series learning more reliable when data are limited and environments change, and designing decision rules that remain safe after deployment—especially in settings like finance where actions can influence future data.
+<p>
+I am also interested in applying statistical and causal learning methods to problems in financial engineering, including alternative data mining and its role in asset pricing and trading. Currently, I study investment strategy optimization under nonstationarity and feedback, where the data-generating process shifts in response to the deployed policy and uncertainty becomes decision-dependent.
+</p>
+
 
 
 
