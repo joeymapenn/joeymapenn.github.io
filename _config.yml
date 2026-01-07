@@ -27,7 +27,7 @@ enable_anchorjs: true
 
 # Social icons
 linkedin_username: zixuan-ma-469b10221
-google_scholar_id: https://scholar.google.com/citations?user=FTHkRxUAAAAJ&hl=en
+google_scholar_id: FTHkRxUAAAAJ
 
 text:
   pagination:

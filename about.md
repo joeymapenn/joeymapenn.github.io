@@ -12,14 +12,6 @@ I was born in Henan, China 🇨🇳, and came to the United States in 2021 to pu
 ### What I do now
 I currently work on two closely related problems: making time-series learning more reliable when data are limited and environments change, and designing decision rules that remain safe after deployment—especially in settings like finance where actions can influence future data.
 
-### Updates
-Just a few things I’ve been busy with lately:
-
-- **Nov 2025** → volunteered at ICDM 2025  
-- **Dec 2025** → received an NSF ICDM Student Travel Award (huge relief for travel costs!)  
-- **Sep 2025** → started reviewing for AISTATS 2026 (2 papers)  
-- **Sep 2025** → my paper was accepted to ICDM 2025 as an oral presentation  
-- **Aug 2025** → joined the AAAI-26 program committee (reviewing 4 papers)
 
 
 <!-- 
