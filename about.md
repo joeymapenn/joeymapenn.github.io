@@ -3,7 +3,7 @@ layout: about
 permalink: /about/
 title: A little bit more about my research interests.
 tags: about
-headshot: /images/headshot.jpg
+# headshot: /images/headshot.jpg
 ---
 
 <p>
