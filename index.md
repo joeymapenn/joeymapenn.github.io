@@ -1,7 +1,6 @@
 ---
 layout: default
 tags: home
-headshot: /images/headshot.jpg
 ---
 
 <h1>👋 Hi there, I'm Zixuan Ma.</h1>
