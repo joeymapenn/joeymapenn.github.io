@@ -1,18 +1,20 @@
 ---
 layout: default
 tags: home
+headshot: /images/headshot.jpg
 ---
 
 <h1>👋 Hi there, I'm Zixuan Ma.</h1>
 
 <p>
 I'm a graduate student at the University of Pennsylvania, working on
-<strong>statistical learning and causal inference</strong>,
-with a focus on <strong>time series and sequential decisions</strong>.
+<strong>statistical machine learning and causal data science</strong>,
+with problems that involve optimization, predictive modeling, and sequential decisions.
 </p>
 
 <p>
-I currently work on two problems: making time-series learning more reliable when data are limited and environments change, and designing decision rules that remain safe after deployment—especially in settings like finance where actions can influence future data.
+For an overview of my past research and current projects, please see the
+<a href="{{ site.baseurl }}/publications/">Publications</a> page.
 </p>
 
 ### Updates
