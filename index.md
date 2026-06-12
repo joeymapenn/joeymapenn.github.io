@@ -5,11 +5,13 @@ tags: home
 
 <h1>👋 Hi there, I'm Zixuan Ma.</h1>
 
+<!--
 <p>
 I'm a graduate student at the University of Pennsylvania, working on
 <strong>statistical machine learning and causal data science</strong>,
 with problems that involve optimization, predictive modeling, and sequential decisions.
 </p>
+-->
 
 <p>
 For an overview of my past research and current projects, please see the
